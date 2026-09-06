@@ -1,0 +1,42 @@
+.gameBoard {
+    position: relative;
+    margin: 0 auto;
+    background-size: 20px 20px;
+    background-color: black;
+    background-image:
+    linear-gradient(to right, gray 1px, transparent 1px),
+    linear-gradient(to bottom, gray 1px, transparent 1px);
+    border-width: 10px;
+    border-top-color: #ccc;
+    border-left-color: #e0e0e0;
+    border-bottom-color: #b4b4b4;
+    border-right-color: #959595;
+    border-style: solid;
+
+}
+
+.Cell {
+    background: #ccc;
+    position: absolute;
+}
+
+.controls {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding-top: 1.5%;
+    gap: 5px;
+    color: whitesmoke;
+    font-family: "Jersey 10";
+    font-size: 20px;
+}
+
+.button {
+    background-color: black;
+    color: whitesmoke;
+    border-color: white;
+    border-width: 3px;
+    font-family: "Jersey 10";
+    border-style: solid;
+}

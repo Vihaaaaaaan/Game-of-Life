@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  background-color: black;
+  text-align: center;
+  font-size: 80px;
+  color: whitesmoke;
+  font-family: "Micro 5";
+  top: -2%;
+}
+
