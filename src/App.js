@@ -4,7 +4,7 @@ import Game from './Game';
 function App() {
   return (
     <>
-      <h1>I HATE JAVASCRIPT</h1>
+      <h1>Conway's Game of Life</h1>
       <Game />
     </>
   );
